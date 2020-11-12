@@ -6,7 +6,7 @@
 #    By: htinisha <htinisha@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/05/28 22:08:03 by htinisha          #+#    #+#              #
-#    Updated: 2020/05/29 16:20:23 by htinisha         ###   ########.fr        #
+#    Updated: 2020/11/12 13:46:18 by htinisha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,10 @@ ft_strlen.c ft_strncmp.c ft_strnstr.c ft_isalpha.c \
 ft_itoa.c ft_memcmp.c ft_memset.c ft_strchr.c ft_substr.c \
 ft_strrchr.c ft_calloc.c ft_isascii.c ft_strlcpy.c \
 ft_atoi.c ft_memcpy.c ft_putendl_fd.c ft_putstr_fd.c \
-ft_strdup.c ft_strjoin.c ft_tolower.c ft_strmapi.c
+ft_strdup.c ft_strjoin.c ft_tolower.c ft_strmapi.c ft_lstadd.c \
+ft_lstaddback.c ft_lstdel.c ft_lstdelone.c ft_lstiter.c \
+ft_lstmap.c ft_lstnew.c get_next_line.c get_next_line_utils.c
+
 
 OBJ = $(SRC:.c=.o)
 
